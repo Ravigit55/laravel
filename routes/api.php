@@ -35,3 +35,5 @@ Route::post('/transactions/add', [TransactionController::class, 'store']);
 Route::get('/transactions/transactions_history', [TransactionController::class, 'getPurchaseHistory']);
 
 
+
+
